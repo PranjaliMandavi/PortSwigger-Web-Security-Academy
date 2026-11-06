@@ -153,12 +153,14 @@ Successfully exploited the SQL injection vulnerability through direct URL manipu
 ### Screenshot Evidence
 
 **Figure 1: SQL injection payload submitted through the browser URL.**
+<img width="1279" height="44" alt="Screenshot 2026-11-06 120335" src="https://github.com/user-attachments/assets/2f0593e0-0c3a-4a40-b611-f21125f9d276" />
 
-![Browser URL with SQL injection payload](screenshots/01-browser-payload.png)
+
 
 **Figure 2: Successful retrieval of hidden products and lab completion.**
 
-![PortSwigger lab solved](screenshots/02-browser-solved.png)
+<img width="1280" height="648" alt="Screenshot 2026-11-06 120448" src="https://github.com/user-attachments/assets/1d2937c8-5d91-4d36-bf29-fdb325cc956f" />
+
 
 ---
 
@@ -474,7 +476,7 @@ This lab strengthened my understanding of:
 
 I also documented this lab in a detailed Medium article covering three exploitation approaches and their practical differences.
 
-**Article:** [One Lab, Three Ways — SQL Injection Walkthrough](PASTE_YOUR_MEDIUM_ARTICLE_URL_HERE)
+**Article:** https://medium.com/@PranjaliMandavi/one-lab-three-ways-solving-portswiggers-sql-injection-hidden-data-lab-with-the-browser-burp-b0c651d61ea2
 
 ---
 
