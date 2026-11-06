@@ -228,15 +228,18 @@ This method demonstrated how Burp Suite Proxy provides visibility and control ov
 
 **Figure 3: Original category-filter request intercepted using Burp Suite Proxy.**
 
-![Original HTTP request intercepted](screenshots/03-proxy-intercept.png)
+<img width="1280" height="646" alt="Screenshot 2026-11-06 120516" src="https://github.com/user-attachments/assets/cf13a464-106d-4b76-81f9-f635d7593133" />
+
 
 **Figure 4: SQL injection payload inserted into the category parameter using the Params tab.**
 
-![Modified category parameter in Burp Proxy](screenshots/04-proxy-payload.png)
+<img width="1278" height="467" alt="Screenshot 2026-11-06 115955" src="https://github.com/user-attachments/assets/31dccae7-249b-4f04-a409-156099934efa" />
+
 
 **Figure 5: Application displaying additional products after forwarding the injected request.**
 
-![Browser response after Proxy modification](screenshots/05-proxy-result.png)
+<img width="1280" height="389" alt="Screenshot 2026-11-06 120559" src="https://github.com/user-attachments/assets/2254c3cd-59f4-4a86-b6dd-1b7f762487e5" />
+
 
 ---
 
@@ -306,17 +309,23 @@ This method demonstrated the usefulness of request replay and response analysis 
 
 **Figure 6: Sending the captured request from HTTP History to Burp Suite Repeater.**
 
-![Send request to Repeater](screenshots/06-send-to-repeater.png)
+<img width="1270" height="584" alt="Screenshot 2026-11-06 121554" src="https://github.com/user-attachments/assets/691d009e-b533-4585-84f6-ed667b2082e0" />
+
 
 **Figure 7: Modified HTTP request containing the SQL injection payload.**
 
-![SQL injection request in Repeater](screenshots/07-repeater-request.png)
+<img width="1280" height="656" alt="Screenshot 2026-11-06 121648" src="https://github.com/user-attachments/assets/45f2a12f-895e-4c80-a8a8-5869428b3412" />
+<img width="1277" height="665" alt="Screenshot 2026-11-06 121635" src="https://github.com/user-attachments/assets/54bb3c90-5cea-4b61-b510-66010b5d48bc" />
+
 
 **Figure 8: Rendered response confirming successful SQL injection and lab completion.**
 
-![Successful exploitation in Repeater](screenshots/08-repeater-solved.png)
+<img width="1280" height="648" alt="Screenshot 2026-11-06 122038" src="https://github.com/user-attachments/assets/10f92483-01d2-4b0d-ad65-73ae623c3c7c" />
+
 
 ---
+<img width="1280" height="648" alt="Screenshot 2026-11-06 120448" src="https://github.com/user-attachments/assets/7517bb91-16c9-4e4c-9337-60eaa9fc6b90" />
+
 
 ## 7. Comparison of the Three Methods
 
