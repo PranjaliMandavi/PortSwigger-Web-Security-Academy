@@ -178,11 +178,13 @@ This demonstrated that the vulnerability could be exploited without using a dedi
 
 **Figure 1: Login form containing the SQL injection payload.**
 
-![Login form with SQL injection payload](screenshots/01-browser-login.png)
+<img width="648" height="308" alt="Screenshot 2026-11-07 115545" src="https://github.com/user-attachments/assets/893ae0a3-2fa7-49b4-bcdb-e0cdb9ec88bf" />
+
 
 **Figure 2: Administrator account page confirming successful login bypass.**
 
-![Administrator login successful](screenshots/02-browser-solved.png)
+<img width="646" height="303" alt="Screenshot 2026-11-07 115559" src="https://github.com/user-attachments/assets/5daf89cd-db1c-4afb-8c86-38e24949cb42" />
+
 
 ---
 
