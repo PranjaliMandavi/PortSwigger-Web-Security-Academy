@@ -251,15 +251,18 @@ CSRF protection prevents a different class of attack and does not prevent SQL in
 
 **Figure 3: Intercepted login request showing the username and password parameters.**
 
-![Burp Proxy intercepted request](screenshots/03-proxy-intercept.png)
+<img width="725" height="311" alt="Screenshot 2026-11-07 123255" src="https://github.com/user-attachments/assets/417af3e1-1a1f-44de-b976-47b7e3d8f427" />
+
 
 **Figure 4: SQL injection payload in the intercepted username parameter.**
 
-![Modified username in Burp Proxy](screenshots/04-proxy-payload.png)
+<img width="1277" height="646" alt="Screenshot 2026-11-07 123243" src="https://github.com/user-attachments/assets/94cb45de-6d80-4dc4-91a4-b713d94b6d55" />
+
 
 **Figure 5: Successful administrator authentication after forwarding the request.**
+<img width="705" height="326" alt="Screenshot 2026-11-07 123421" src="https://github.com/user-attachments/assets/92c22faf-3685-463a-9cc4-dfb72d8de50e" />
 
-![Administrator login through Proxy](screenshots/05-proxy-solved.png)
+
 
 ---
 
@@ -331,15 +334,19 @@ The administrator account page and the lab's **Solved** status provided confirma
 
 **Figure 6: Original login request sent to Burp Suite Repeater.**
 
-![Original login request in Repeater](screenshots/06-repeater-original.png)
+<img width="1276" height="425" alt="Screenshot 2026-11-07 123900" src="https://github.com/user-attachments/assets/a8be1e2d-8c3c-4761-8de4-9255ea81278a" />
+
 
 **Figure 7: Modified login request containing the SQL injection payload.**
 
-![Injected login request in Repeater](screenshots/07-repeater-payload.png)
+<img width="632" height="598" alt="Screenshot 2026-11-07 124042" src="https://github.com/user-attachments/assets/9b6cb8e7-e5e0-45eb-968e-b9417231422e" />
+<img width="642" height="590" alt="Screenshot 2026-11-07 124104" src="https://github.com/user-attachments/assets/7eb4505a-e550-4d72-a4e9-2ec3dfe768bb" />
+
 
 **Figure 8: HTTP response showing the administrator redirect and session-cookie issuance.**
+<img width="1280" height="654" alt="Screenshot 2026-11-07 124145" src="https://github.com/user-attachments/assets/8e5af789-13e5-490f-8010-9aa3c6200c01" />
 
-![Repeater authentication response](screenshots/08-repeater-response.png)
+
 
 ---
 
@@ -423,11 +430,13 @@ These attributes do not prevent someone who already possesses a valid session va
 
 **Figure 9: Firefox Developer Tools displaying the session cookie and its attributes.**
 
-![Firefox session cookie storage](screenshots/09-session-cookie.png)
+<img width="1280" height="634" alt="Screenshot 2026-11-07 124832" src="https://github.com/user-attachments/assets/6a2cc563-84ca-44e2-a410-cb58ddf8ef4a" />
+
 
 **Figure 10: Administrator account accessed after transferring the authenticated session.**
 
-![Administrator session transferred successfully](screenshots/10-session-transfer-solved.png)
+<img width="1277" height="451" alt="Screenshot 2026-11-07 124908" src="https://github.com/user-attachments/assets/38c168fe-7c51-4beb-9ead-2b4d20899b61" />
+
 
 ---
 
